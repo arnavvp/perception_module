@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (perc_assig2) JobQueued: {'identifier': 'perc_assig2', 'dependencies': OrderedDict()}
+[0.001011] (perc_assig2) JobStarted: {'identifier': 'perc_assig2'}
+[0.100772] (-) TimerEvent: {}
+[0.202330] (-) TimerEvent: {}
+[0.305230] (-) TimerEvent: {}
+[0.406892] (-) TimerEvent: {}
+[0.508367] (-) TimerEvent: {}
+[0.609837] (-) TimerEvent: {}
+[0.713780] (-) TimerEvent: {}
+[0.817111] (-) TimerEvent: {}
+[0.919212] (-) TimerEvent: {}
+[1.019955] (-) TimerEvent: {}
+[1.121204] (-) TimerEvent: {}
+[1.222148] (-) TimerEvent: {}
+[1.322970] (-) TimerEvent: {}
+[1.425985] (-) TimerEvent: {}
+[1.526691] (-) TimerEvent: {}
+[1.629631] (-) TimerEvent: {}
+[1.731886] (-) TimerEvent: {}
+[1.833202] (-) TimerEvent: {}
+[1.934490] (-) TimerEvent: {}
+[2.035693] (-) TimerEvent: {}
+[2.139825] (-) TimerEvent: {}
+[2.240653] (-) TimerEvent: {}
+[2.341655] (-) TimerEvent: {}
+[2.445841] (-) TimerEvent: {}
+[2.546795] (-) TimerEvent: {}
+[2.557967] (perc_assig2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/perc_assig2', 'build', '--build-base', '/home/arnavv/perception/build/perc_assig2/build', 'install', '--record', '/home/arnavv/perception/build/perc_assig2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/arnavv/perception/src/perc_assig2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'arnavv', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/arnavv', 'OLDPWD': '/home/arnavv', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1496', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arnavv/perception/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'arnavv', 'EUFS_MASTER': '/path/to/the/directory', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arnavv', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/arnavv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/arnavv:@/tmp/.ICE-unix/1471,unix/arnavv:/tmp/.ICE-unix/1471', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8db915f8_83af_49ed_8b12_6429ee4b63e9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.26LW52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.892', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '17', 'AMENT_PREFIX_PATH': '/home/arnavv/perception/install/perc_assig2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arnavv/perception/build/perc_assig2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/arnavv/perception/build/perc_assig2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavv/perception/install/perc_assig2/lib/python3.10/site-packages:/home/arnavv/perception/install/perc_assig2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.647263] (-) TimerEvent: {}
+[2.751956] (-) TimerEvent: {}
+[2.856793] (-) TimerEvent: {}
+[2.957581] (-) TimerEvent: {}
+[3.058145] (-) TimerEvent: {}
+[3.160855] (-) TimerEvent: {}
+[3.261654] (-) TimerEvent: {}
+[3.362361] (-) TimerEvent: {}
+[3.465949] (-) TimerEvent: {}
+[3.532374] (perc_assig2) StdoutLine: {'line': b'running egg_info\n'}
+[3.533008] (perc_assig2) StdoutLine: {'line': b'creating ../../build/perc_assig2/perc_assig2.egg-info\n'}
+[3.533266] (perc_assig2) StdoutLine: {'line': b'writing ../../build/perc_assig2/perc_assig2.egg-info/PKG-INFO\n'}
+[3.533859] (perc_assig2) StdoutLine: {'line': b'writing dependency_links to ../../build/perc_assig2/perc_assig2.egg-info/dependency_links.txt\n'}
+[3.534351] (perc_assig2) StdoutLine: {'line': b'writing entry points to ../../build/perc_assig2/perc_assig2.egg-info/entry_points.txt\n'}
+[3.535078] (perc_assig2) StdoutLine: {'line': b'writing requirements to ../../build/perc_assig2/perc_assig2.egg-info/requires.txt\n'}
+[3.535629] (perc_assig2) StdoutLine: {'line': b'writing top-level names to ../../build/perc_assig2/perc_assig2.egg-info/top_level.txt\n'}
+[3.535842] (perc_assig2) StdoutLine: {'line': b"writing manifest file '../../build/perc_assig2/perc_assig2.egg-info/SOURCES.txt'\n"}
+[3.545156] (perc_assig2) StdoutLine: {'line': b"reading manifest file '../../build/perc_assig2/perc_assig2.egg-info/SOURCES.txt'\n"}
+[3.547708] (perc_assig2) StdoutLine: {'line': b"writing manifest file '../../build/perc_assig2/perc_assig2.egg-info/SOURCES.txt'\n"}
+[3.549202] (perc_assig2) StdoutLine: {'line': b'running build\n'}
+[3.550659] (perc_assig2) StdoutLine: {'line': b'running build_py\n'}
+[3.551660] (perc_assig2) StdoutLine: {'line': b'creating /home/arnavv/perception/build/perc_assig2/build\n'}
+[3.552645] (perc_assig2) StdoutLine: {'line': b'creating /home/arnavv/perception/build/perc_assig2/build/lib\n'}
+[3.553174] (perc_assig2) StdoutLine: {'line': b'creating /home/arnavv/perception/build/perc_assig2/build/lib/perc_assig2\n'}
+[3.553370] (perc_assig2) StdoutLine: {'line': b'copying perc_assig2/cp2.py -> /home/arnavv/perception/build/perc_assig2/build/lib/perc_assig2\n'}
+[3.553480] (perc_assig2) StdoutLine: {'line': b'copying perc_assig2/__init__.py -> /home/arnavv/perception/build/perc_assig2/build/lib/perc_assig2\n'}
+[3.554086] (perc_assig2) StdoutLine: {'line': b'running install\n'}
+[3.554631] (perc_assig2) StdoutLine: {'line': b'running install_lib\n'}
+[3.558255] (perc_assig2) StdoutLine: {'line': b'creating /home/arnavv/perception/install/perc_assig2/lib/python3.10/site-packages/perc_assig2\n'}
+[3.558569] (perc_assig2) StdoutLine: {'line': b'copying /home/arnavv/perception/build/perc_assig2/build/lib/perc_assig2/cp2.py -> /home/arnavv/perception/install/perc_assig2/lib/python3.10/site-packages/perc_assig2\n'}
+[3.558789] (perc_assig2) StdoutLine: {'line': b'copying /home/arnavv/perception/build/perc_assig2/build/lib/perc_assig2/__init__.py -> /home/arnavv/perception/install/perc_assig2/lib/python3.10/site-packages/perc_assig2\n'}
+[3.559982] (perc_assig2) StdoutLine: {'line': b'byte-compiling /home/arnavv/perception/install/perc_assig2/lib/python3.10/site-packages/perc_assig2/cp2.py to cp2.cpython-310.pyc\n'}
+[3.562402] (perc_assig2) StdoutLine: {'line': b'byte-compiling /home/arnavv/perception/install/perc_assig2/lib/python3.10/site-packages/perc_assig2/__init__.py to __init__.cpython-310.pyc\n'}
+[3.562767] (perc_assig2) StdoutLine: {'line': b'running install_data\n'}
+[3.562922] (perc_assig2) StdoutLine: {'line': b'creating /home/arnavv/perception/install/perc_assig2/share/ament_index\n'}
+[3.563002] (perc_assig2) StdoutLine: {'line': b'creating /home/arnavv/perception/install/perc_assig2/share/ament_index/resource_index\n'}
+[3.563094] (perc_assig2) StdoutLine: {'line': b'creating /home/arnavv/perception/install/perc_assig2/share/ament_index/resource_index/packages\n'}
+[3.563174] (perc_assig2) StdoutLine: {'line': b'copying resource/perc_assig2 -> /home/arnavv/perception/install/perc_assig2/share/ament_index/resource_index/packages\n'}
+[3.563286] (perc_assig2) StdoutLine: {'line': b'copying package.xml -> /home/arnavv/perception/install/perc_assig2/share/perc_assig2\n'}
+[3.563384] (perc_assig2) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.565540] (perc_assig2) StdoutLine: {'line': b'Copying ../../build/perc_assig2/perc_assig2.egg-info to /home/arnavv/perception/install/perc_assig2/lib/python3.10/site-packages/perc_assig2-0.0.0-py3.10.egg-info\n'}
+[3.566043] (-) TimerEvent: {}
+[3.566960] (perc_assig2) StdoutLine: {'line': b'running install_scripts\n'}
+[3.646349] (perc_assig2) StdoutLine: {'line': b'Installing cp2 script to /home/arnavv/perception/install/perc_assig2/lib/perc_assig2\n'}
+[3.649043] (perc_assig2) StdoutLine: {'line': b"writing list of installed files to '/home/arnavv/perception/build/perc_assig2/install.log'\n"}
+[3.667273] (-) TimerEvent: {}
+[3.768668] (-) TimerEvent: {}
+[3.813980] (perc_assig2) CommandEnded: {'returncode': 0}
+[3.844099] (perc_assig2) JobEnded: {'identifier': 'perc_assig2', 'rc': 0}
+[3.844933] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[console_scripts]
+cp2 = perc_assig2.cp2:main
+
